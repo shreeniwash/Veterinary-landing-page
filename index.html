@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- bootstrap icon cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>project-2</title>
+</head>
+<body>
+  
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark " id="top_nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="" class="img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+         
+        </ul>
+        <form class="d-flex" id="searchform">
+          <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search" id="searchbox">
+          <button class="btn btn-outline-success" type="submit" id="searchbtn"> <i class="bi bi-search"></i> </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- 
+  container -->
+  <div class="container-fluid">
+<!-- 
+    banner -->
+    <div class="row justify-content-center"  id="banner">
+      <div class="col-md-6 col-11" id="bannertext">
+            <h1>First I Wanted to be <br> a veterinarian</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, aspernatur dignissimos, rerum veniam recusandae perferendis iure veritatis ducimus neque facilis saepe quae, deleniti praesentium non eveniet consequuntur voluptatem et cupiditate.</p>
+            <button type="button" class="btn" id="banner-btn-1">Contact Us</button>
+            <button type="button" class="btn" id="banner-btn-2" >Our Services</button>
+           
+      </div>
+      <div class="col-md-4 d-none d-md-block" id="bannerimg">
+       <img src="images/black dog.png" alt="" class="img-fluid">
+      </div>
+    </div>
+      <!-- services -->
+      <div class=" row justify-content-center">
+        <div class="col-md-5 col-11" id="service-text">
+        <h1>As a veterinarian and <br>love of animal.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est perferendis repudiandae maxime ullam, explicabo quam. Libero quos similique, ad dolorum quisquam veniam voluptates, harum cumque corporis laboriosam ullam! Accusantium, magnam.</p>
+        <button type="button" class="btn" id="service-btn">Our Services</button>
+      </div>
+        <div class="col-md-5" id="service-img">
+          <img src="images/dog 4.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+      
+      <!-- counter -->
+      <div class="row justify-content-center" id="counter-section">
+        <div class="col-md-3 text-center text-white mt-5 mb-3 ">
+          <i class="bi bi-heart-half counter-icon"></i>
+          <h3>+34793 <br>
+          Happ Clients</h3>
+        </div>
+        <div class="col-md-3 text-center text-white mb-3 mt-5 ">
+          <i class="bi bi-buildings counter-icon"></i>
+          <h3>+45382 <br>Department</h3>
+        </div>
+        <div class="col-md-3 text-center text-white mt-5 mb-3">
+          <i class="bi bi-eyedropper counter-icon"></i>
+          <h3>+54762 <br>Vaccinations</h3>
+        </div>
+      </div>
+
+
+      <!-- blogger     -->
+
+ <div div class="row justify-content-evenly" id="blog">
+ <div class="col-12 text-center ">
+  <h1  id="blog-title">Recent Posts</h1>
+ <p id="blog-p"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Eos molestias architecto corrupti odit tenetur ea animi harum saepe quia deleniti magni, error deserunt. <br> Exercitationem quidem aperiam soluta incidunt quae facilis?
+  </p>
+ </div>
+ <div class="col-md-3 col-11 mt-4">
+  <img src="images/dog.png"  class="img-fluid" alt="">
+  <div class="article-detail"> 
+  <h4 class="article-title">As a veterinarian and lover of animals.</h4>
+  <p class="article-date">FEBRUARY 09,2021</p>
+  <P  class="article-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta iusto fuga enim tenetur ipsum temporibus nesciunt esse nemo. Sunt ipsa corporis ducimus quam iste soluta consequatur nulla ullam animi reiciendis?</P>
+  <P> <a href="#" class="article-link">Read More</a></P>
+</div>
+</div>
+ 
+ <div class="col-md-3  col-11 mt-4">
+  <img src="images/dog1.png"  class="img-fluid" alt="">
+  <div class="article-detail"> 
+    <h4 class="article-title">As a veterinarian and lover of animals.</h4>
+    <p class="article-date">FEBRUARY 09,2021</p>
+    <P  class="article-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta iusto fuga enim tenetur ipsum temporibus nesciunt esse nemo. Sunt ipsa corporis ducimus quam iste soluta consequatur nulla ullam animi reiciendis?</P>
+    <P> <a href="#" class="article-link">Read More</a></P>
+  </div>
+ </div>
+ <div class="col-md-3  col-11 mt-4">
+  <img src="images/dog2.png"   class="img-fluid" alt="">
+  <div class="article-detail"> 
+    <h4 class="article-title">As a veterinarian and lover of animals.</h4>
+    <p class="article-date">FEBRUARY 09,2021</p>
+    <P  class="article-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta iusto fuga enim tenetur ipsum temporibus nesciunt esse nemo. Sunt ipsa corporis ducimus quam iste soluta consequatur nulla ullam animi reiciendis?</P>
+    <P> <a href="#" class="article-link">Read More</a></P>
+  </div>
+ </div>
+ </div>
+
+
+ <!-- footer -->
+
+ <div class="row justify-content-center text-white" id="footer">
+  <div class="col-md-3 col-11">
+    <h4>About</h4>
+    <a href="#">History</a><br>
+    <a href="#">Our Team</a><br>
+    <a href="#">Brand Guidlines</a><br>
+    <a href="#">Terms&Conditios</a><br>
+    <a href="#">Privacy Policy</a><br>
+  </div>
+  <div class="col-md-2 col-11">
+    <h4>Services</h4>
+    <a href="#">how to Order</a><br>
+    <a href="#">Our Product</a><br>
+    <a href="#">Order Status</a><br>
+    <a href="#">Promo</a><br>
+    <a href="#">Payment Method</a><br>
+  </div>
+  <div class="col-md-4 col-11 text-end">
+    <h4>Title Here</h4>
+    <p>lorem dolor sit amet.</p>
+     <form action="" id="footer-form">
+      <input type="text" id="footer-search-box">
+      <button type="submit" id="footer-search-submit"><i class="bi bi-cursor"></i></button>
+    </form>
+      <i class="bi bi-instagram social-icon"></i>
+      <i class="bi bi-facebook social-icon"></i>
+      <i class="bi bi-twitter social-icon"></i>
+      <i class="bi bi-whatsapp social-icon"></i>
+
+  </div>
+ </div>
+    <!-- container fluid end -->
+  </div>
+</body>
+<!-- javascript bootstrap bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
